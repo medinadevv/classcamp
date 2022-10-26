@@ -1,0 +1,801 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+#header {
+    padding: 20px 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    animation: hed 2s ease-in-out;
+}
+
+@keyframes hed {
+    0% {
+        transform: translate(-100px);
+    }
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.header-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.header-logo h1 {
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-right: 50px;
+}
+
+.header-logo a {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.42px;
+    color: #000000;
+}
+
+.header-title a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.42px;
+    color: #000000;
+}
+
+#hero {
+    background: #100E14;
+    min-height: 100vh;
+}
+
+.hero h1 {
+    font-weight: 400;
+    font-size: 63px;
+    text-align: center;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;
+
+}
+
+.hero p {
+    padding: 50px 0;
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.hero button {
+    width: 281px;
+    height: 66px;
+    background: #FF4343;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 23px;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+.hero spen {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+    padding: 40px 0;
+}
+
+.hero {
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero-img {
+    position: relative;
+}
+
+.hero-tel {
+    position: absolute;
+    /*top: 5px;*/
+    right: 14rem;
+    /*left: -30px;*/
+    bottom: -30rem;
+    animation: tel 3s ease-in-out;
+}
+
+@keyframes tel {
+    0% {
+        transform: translateX(1000px);
+    }
+}
+
+#blocks1 {
+    background: #100E14;
+    min-height: 100vh;
+}
+
+.blocks h1 {
+    font-weight: 400;
+    font-size: 58px;
+    color: #FFFFFF;
+    padding: 20px 0;
+
+}
+
+.blocks p {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.block1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.blocks {
+    /*display: flex;*/
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.blocks-tel {
+    position: absolute;
+    top: 0;
+    left: 300px;
+}
+
+.blocks-img {
+    display: flex;
+    padding: 30px 0;
+    position: relative;
+}
+
+#lion {
+    background: #100E14;
+    min-height: 100vh;
+}
+
+.lion {
+    display: flex;
+
+
+}
+
+.lion h1 {
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    letter-spacing: 1.92px;
+    color: #FFFFFF;
+
+}
+
+.lion p {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 38px;
+    font-size: 27px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.lion-title span {
+
+    font-weight: 400;
+    text-align: center;
+    font-size: 27px;
+    color: #FFFFFF;
+}
+
+.lion {
+    /*display: flex;*/
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#element {
+    background: #100E14;
+    min-height: 100vh;
+}
+
+.elements h1 {
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 70px;
+    letter-spacing: 3.2px;
+    color: #FFFFFF;
+    padding: 20px 0;
+
+}
+
+.element p {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 38px;
+    letter-spacing: 1.08px;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+
+.element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.element p span {
+    color: #FFFFFF;
+}
+
+#share {
+    background: #100E14;
+    min-height: 100vh;
+}
+
+.share h1 {
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    letter-spacing: 1.92px;
+    color: #FFFFFF;
+
+}
+
+.share p {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 1.08px;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.share p span {
+    color: #FFFFFF;
+
+}
+
+.share {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#blocks {
+    background: #100E14;
+    min-height: 100vh;
+}
+
+.blocks h1 {
+    font-weight: 400;
+    font-size: 61px;
+    line-height: 83px;
+    text-align: center;
+    letter-spacing: 2.56px;
+    color: #FFFFFF;
+
+}
+
+.blocks p {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.blocks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.limon {
+    margin: 20px 0;
+    width: 120px;
+    height: 5px;
+    background: #FF4343;;
+}
+
+.card-title h1 {
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+
+}
+
+.card-title p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+
+}
+
+.card {
+    position: relative;
+}
+
+.card-title {
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    background: rgba(0, 0, 0, 0.51);
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+    backdrop-filter: blur(5px);
+    border-radius: 6px;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 251px;
+    height: 452px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+
+}
+
+#users {
+    background: #100E14;
+    min-height: 100vh;
+}
+
+.users span {
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: #8BFFB0;
+    padding-block-start: 100px;
+}
+
+.users h1 {
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 83px;
+    text-align: center;
+    letter-spacing: 1.92px;
+    color: #FFFFFF;
+    padding: 50px 0;
+
+}
+
+.users p {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.users {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.users-img {
+    animation: user 2s infinite ease-in-out;
+}
+
+@keyframes user {
+    0% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+
+#footer {
+    background: #100E14;
+    padding: 90px 0;
+}
+
+.footer-title h1 {
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+
+}
+
+.footer-title p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.16px;
+    color: #FFFFFF;
+    padding: 20px 0;
+
+}
+
+.footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+
+}
+
+.footer-icon a {
+    font-size: 30px;
+    color: white;
+}
+
+#teach {
+    background: #100E14;
+    /*min-height: 100vh;*/
+    padding-top: 70px;
+}
+
+.teach {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.teach h1 {
+    font-weight: 400;
+    font-size: 63px;
+    letter-spacing: 2.1px;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+
+.teach p {
+    font-weight: 400;
+    font-size: 27px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 15px 0 50px 0;
+
+
+}
+
+.teach button {
+    width: 281px;
+    height: 66px;
+    background: #FF4343;
+    font-weight: 400;
+    font-size: 23px;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.teach {
+    padding-top: 50px;
+    padding-bottom: 15px;
+    background: #1D1B24;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.teach-img {
+    position: relative;
+}
+
+.teach-title {
+    position: absolute;
+    bottom: 143px;
+    left: 400px;
+}
+
+.teach-title h1 {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+
+}
+
+.teach-title p {
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.teach-img img {
+    width: 100%;
+}
+
+#nova {
+    background: #0A0A0A;
+    padding-bottom: 150px;
+}
+
+.nova-title h1  {
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 20px;
+    /* identical to box height, or 105% */
+
+    letter-spacing: 0.42px;
+
+    color: #FFFFFF;
+
+}
+
+.nova-youtube p {
+    padding-top: 5px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height, or 154% */
+
+    letter-spacing: 0.42px;
+
+    color: #FFFFFF;
+    margin-left:  10px;
+
+}
+.nova-youtube a {
+    font-size: 28px;
+    color: #FFFFFF;
+}
+
+.nova-youtube {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.nova-img {
+    position: relative;
+}
+
+.nova-title {
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+
+}
+.nova-global {
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    /* identical to box height, or 121% */
+
+    letter-spacing: 1.92px;
+
+    color: #FFFFFF;
+    padding: 80px 0;
+
+}
+.nova-card {
+    padding: 0 20px;
+    width: 290px;
+    height: 439px;
+    background: #8ceaaa;
+    position: relative;
+}
+
+.nova-left {
+    display: flex;
+    align-items: flex-end;
+    margin-right: 50px;
+}
+.nova-right {
+    display: flex;
+    align-items: flex-end;
+}
+.nova-card h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    letter-spacing: 0.24px;
+    text-transform: uppercase;
+
+    color: #8e32ea;
+    padding: 20px 0;
+
+}
+.nova-card h1 {
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 36px;
+    /* or 124% */
+
+    letter-spacing: 0.42px;
+
+    color: #FFFFFF;
+    padding-bottom: 20px;
+
+}
+
+.nova-card p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 157% */
+
+    letter-spacing: 0.42px;
+
+    color: #FFFFFF;
+
+}
+.nova-card-signap h1 {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 20px;
+    /* identical to box height, or 105% */
+
+    letter-spacing: 0.6px;
+
+    color: #FFFFFF
+}
+
+.nova-card-signap a {
+    margin-left: 10px;
+    padding-top: 20px;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+.nova-card-signap {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+.nova {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#signin {
+    background: #121118;
+    padding: 50px 0;
+}
+.signin h3 {
+    font-size: 28px;
+    color: white;
+    font-weight: 400;
+}
+.signin input {
+    margin-bottom: 80px;
+    background: transparent;
+    border: 2px solid #FF4343;
+    border-radius: 5px;
+    width: 433px;
+    height: 40px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.signin input::placeholder {
+    text-align: start;
+    color: white;
+    text-transform: uppercase;
+}
+.signin {
+    width: 600px;
+    height: 400px;
+    background: #1D1B24;
+    padding: 0 50px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.signin-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signin button {
+    padding: 10px 40px;
+    background: #FF4343;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: 4s;
+}
+.signin button:hover {
+    background: transparent;
+    border: 2px solid #FF4343;
+    transform: scale(0.7);
+}
+
+
